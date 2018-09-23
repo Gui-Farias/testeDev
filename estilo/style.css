@@ -1,0 +1,212 @@
+/*Estilo para a parte do nav fixed */
+
+.atendi{
+    margin: 2px 0 0 648px;    
+    font-size: 12px;
+}
+
+.rectangle_2 {
+    width: 80px;
+    height: 35px;
+    opacity: 1;
+    border: solid 2px #cdcdcd;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.rectangle_conta {
+    width: 141.1px;
+    height: 35px;
+    opacity: 0.8;
+    background-color: #1ca6df;
+    font-size: 12px;
+    color: #FFF;
+    margin-left: 14px;
+}
+
+header{
+    position: fixed;
+    z-index: auto;
+    background-color: #FFF;
+    width: 1920px;
+    padding: 22px 0 23px 394px; 
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+/* estilo para o banner */
+
+#banner .fundo{
+    padding-top: 80px;
+    position: absolute;
+    z-index: -1;
+    width: 1920px;
+}
+
+#banner .texto h1{
+    width: 551px;
+    height: 100px;
+    padding-top: 16px;
+}
+
+#banner .texto p{
+    margin: 41px 0 146px 0;
+    font-size: 18px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+#banner .texto{
+    padding: 183px 0 62px 385px;
+    color: #FFF;
+    font-size: 50px;
+}
+
+/* estilo para os motivos*/
+
+#motivos .motivoAtencao{
+    width: 275px;
+    padding: 30px 0 43px 0;
+    height: 35px;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.25;
+    color: #0775b7;
+}
+#motivos .motivoTexto{
+    width: 237px;
+    height: 90px;
+    font-size: 18px;
+}
+#motivos h1{
+    width: 800px;
+    margin-bottom: 80px;
+    height: 45px;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #4a4a4a;
+}
+
+#motivos .mot{
+    line-height: 1.67;
+    color: #7a7a7a;
+    height: 90px;
+}
+
+#motivos{
+    padding: 0 380px 100px 385px;
+    margin-bottom: 116px; 
+}
+
+/* estilo das vantagens */
+
+#vantagens .pessoa{
+    width: 771px;
+    height: 510px;
+    margin: 45px 0 0 212.1px;;
+    position: absolute;
+    z-index: 1;
+}
+
+#vantagens .fundo{
+    width: 258px;
+    height: 600px;
+    position: absolute;
+    z-index: 0;
+}
+
+#vantagens .vantagensAtencao{
+    width: 437px;
+    height: 90px;
+    padding-top: 154px;
+    color: #00ae99;
+    margin-left: 1076.6px;
+}
+
+#vantagens .vantagensTexto{
+    margin-left: 1076.6px;
+    padding-top: 104px;
+    font-size: 18px;  
+}
+
+#vantagens .vejaVantagens{
+    margin-left: 1076.6px;
+    padding-top: 56px;
+}
+
+#vantagens{
+    width: 1920px;
+    height: 600px;
+    background-color: #eeeeee;
+    display: block;
+}
+
+/* estilo para o anuncio */
+
+#anuncio .anuncioTexto{
+    margin-right:357px;
+}
+#anuncio .iconeLoja{
+    margin-top: 29px;
+}
+#anuncio{
+    width: 1920px;
+    height: 286px;
+    background-color: #0074ba;
+    padding: 100px 0 0 388px;
+    color: #FFF;
+    line-height: 1.13;
+}
+
+
+/* estilo para o footer */
+
+footer .iconeSocial{
+    padding-left: 707px;
+    margin-bottom: 50px;
+}
+
+footer nav, footer .rodape{
+    padding: 40px 0 0 388px; 
+}
+
+footer .rodape .termo{
+    margin-left: 869px;
+}
+
+footer .rodape a:visited {
+    color: #465152;
+}
+
+footer{
+    z-index: auto;
+    background-color: #FFF;
+}
+
+footer .linha{
+    width: 1919px;
+    height: 3px;
+    border: solid 1px #eeeeee;
+    position: absolute;
+}
+
+/* para toda a pagina */
+
+.testeDesk{
+    height: 2308px;
+    background-color: #ffffff;
+    font-family: Lato-Light, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    font-size: 12px;
+    color: #465152;
+    line-height: 1.67;
+}
