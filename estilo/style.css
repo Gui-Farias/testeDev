@@ -1,29 +1,27 @@
 /*Estilo para a parte do nav fixed */
 
 .atendi{
-    margin-left: 648px; 
+    margin: 2px 0 0 648px;    
     font-size: 12px;
 }
 
 .rectangle_2 {
     width: 80px;
     height: 35px;
-    object-fit: contain;
     opacity: 1;
     border: solid 2px #cdcdcd;
     font-size: 12px;
-    margin-left: 15%;
+    margin-left: 20px;
 }
 
 .rectangle_conta {
-    width: 131.1px;
+    width: 141.1px;
     height: 35px;
-    object-fit: contain;
     opacity: 0.8;
     background-color: #1ca6df;
     font-size: 12px;
     color: #FFF;
-    margin-left: 20%;
+    margin-left: 14px;
 }
 
 header{
@@ -31,40 +29,37 @@ header{
     z-index: auto;
     background-color: #FFF;
     width: 1920px;
-    padding: 1% 0 1.1% 394px; 
+    padding: 22px 0 23px 394px; 
+    font-size: 18px;
+    text-align: center;
 }
 
-.menu {
-    font-size: 18px;
-}
 
 
 /* estilo para o banner */
 
 #banner .fundo{
-    padding-top: 4.7%;
+    padding-top: 80px;
     position: absolute;
     z-index: -1;
     width: 1920px;
-    height: 660px;
-
 }
 
 #banner .texto h1{
     width: 551px;
     height: 100px;
-    padding-top: 1%;
+    padding-top: 16px;
 }
 
 #banner .texto p{
-    margin: 3% 0 9.4% 0;
+    margin: 41px 0 146px 0;
     font-size: 18px;
     color: #FFF;
     text-decoration: none;
 }
 
 #banner .texto{
-    padding: 9.4% 0 3.5% 20.5%;
+    padding: 183px 0 62px 385px;
     color: #FFF;
     font-size: 50px;
 }
@@ -73,7 +68,7 @@ header{
 
 #motivos .motivoAtencao{
     width: 275px;
-    padding: 8% 0 10% 0;
+    padding: 30px 0 43px 0;
     height: 35px;
     font-size: 28px;
     font-weight: 300;
@@ -84,11 +79,10 @@ header{
     width: 237px;
     height: 90px;
     font-size: 18px;
-    
 }
 #motivos h1{
     width: 800px;
-    margin-bottom: 6%;;
+    margin-bottom: 80px;
     height: 45px;
     font-size: 36px;
     font-weight: normal;
@@ -103,13 +97,11 @@ header{
     line-height: 1.67;
     color: #7a7a7a;
     height: 90px;
-    margin-left: 3%;
 }
 
 #motivos{
-    padding: 0 20.5% 1.5% 20.5%;
-    width: 100%;
-    margin-bottom: 10%; 
+    padding: 0 380px 100px 385px;
+    margin-bottom: 116px; 
 }
 
 /* estilo das vantagens */
@@ -117,7 +109,7 @@ header{
 #vantagens .pessoa{
     width: 771px;
     height: 510px;
-    margin: 45px 0 10% 212.1px;;
+    margin: 45px 0 0 212.1px;;
     position: absolute;
     z-index: 1;
 }
@@ -132,20 +124,20 @@ header{
 #vantagens .vantagensAtencao{
     width: 437px;
     height: 90px;
-    padding-top: 7%;
+    padding-top: 154px;
     color: #00ae99;
-    margin-left: 62%;
+    margin-left: 1076.6px;
 }
 
 #vantagens .vantagensTexto{
-    margin-left: 62%;
-    padding-top: 5.5%;
+    margin-left: 1076.6px;
+    padding-top: 104px;
     font-size: 18px;  
 }
 
 #vantagens .vejaVantagens{
-    margin-left: 62%;
-    padding-top: 2.5%;
+    margin-left: 1076.6px;
+    padding-top: 56px;
 }
 
 #vantagens{
@@ -155,25 +147,37 @@ header{
     display: block;
 }
 
-#anuncio .iconeLoja{
-    margin: 16% 0 0 250%;
-}
+/* estilo para o anuncio */
 
+#anuncio .anuncioTexto{
+    margin-right:357px;
+}
+#anuncio .iconeLoja{
+    margin-top: 29px;
+}
 #anuncio{
     width: 1920px;
     height: 286px;
     background-color: #0074ba;
-    padding: 5% 0 0 22%;
+    padding: 100px 0 0 388px;
     color: #FFF;
     line-height: 1.13;
 }
 
+
+/* estilo para o footer */
+
 footer .iconeSocial{
-    padding-left: 760px;
+    padding-left: 707px;
     margin-bottom: 50px;
 }
+
+footer nav, footer .rodape{
+    padding: 40px 0 0 388px; 
+}
+
 footer .rodape .termo{
-    margin-left: 918px;
+    margin-left: 869px;
 }
 
 footer .rodape a:visited {
@@ -183,14 +187,18 @@ footer .rodape a:visited {
 footer{
     z-index: auto;
     background-color: #FFF;
-    width: 1920px;
-    padding: 1% 0 0 394px; 
 }
 
+footer .linha{
+    width: 1919px;
+    height: 3px;
+    border: solid 1px #eeeeee;
+    position: absolute;
+}
 
+/* para toda a pagina */
 
 .testeDesk{
-    width: 1920px;
     height: 2308px;
     background-color: #ffffff;
     font-family: Lato-Light, sans-serif;
