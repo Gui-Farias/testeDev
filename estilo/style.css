@@ -426,8 +426,8 @@ footer .linha{
 
 
     .testeDesk{
+        width: 320px;
         height: 2658px;
         background-color: #ffffff;
     }
-    *{width: 320px;}
 }
