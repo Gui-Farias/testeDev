@@ -23,6 +23,9 @@
     color: #FFF !important;
     margin-left: 14px;
 }
+header .pag{
+    color: #035da3 !important;
+}
 
 header{
     position: fixed;
