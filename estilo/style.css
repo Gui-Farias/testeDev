@@ -53,12 +53,17 @@ header{
     padding-top: 16px;
 }
 
+#banner .texto p i{
+    margin-right:12px;
+}
+
 #banner .texto p{
     margin: 41px 0 176px 0;
     font-size: 18px;
     color: #FFF;
     text-decoration: none;
 }
+
 
 #banner .texto{
     padding: 183px 0 62px 385px;
