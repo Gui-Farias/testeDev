@@ -151,7 +151,9 @@ header{
     display: block;
 }
 
+
 /* estilo para o anuncio */
+
 
 #anuncio .anuncioTexto{
     margin-right:357px;
@@ -176,6 +178,7 @@ header{
 
 /* estilo para o footer */
 
+
 footer .iconeSocial{
     padding-left: 707px;
     margin-bottom: 50px;
@@ -192,7 +195,9 @@ footer .rodape .termo{
 footer .rodape a:visited {
     color: #465152;
 }
-
+footer .maisInfo{
+    padding-left: 375px;
+}
 footer{
     z-index: auto;
     background-color: #FFF;
@@ -400,6 +405,9 @@ footer .linha{
     
     footer .rodape a:visited {
         color: #465152;
+    }
+    footer .maisInfo{
+        padding: 20px 150px 0 0;
     }
     
     footer{
