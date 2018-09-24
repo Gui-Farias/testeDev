@@ -20,7 +20,7 @@
     opacity: 0.8;
     background-color: #1ca6df;
     font-size: 12px;
-    color: #FFF;
+    color: #FFF !important;
     margin-left: 14px;
 }
 
