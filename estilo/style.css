@@ -426,58 +426,8 @@ footer .linha{
 
 
     .testeDesk{
-        width: 320px;
         height: 2658px;
         background-color: #ffffff;
     }
+    *{width: 320px;}
 }
-/*
-
-
-
-
-
-
-
-
-
-
-
-#motivos .motivoAtencao{
-    width: 275px;
-    padding: 30px 0 43px 0;
-    height: 35px;
-    font-size: 28px;
-    font-weight: 300;
-    line-height: 1.25;
-    color: #0775b7;
-}
-#motivos .motivoTexto{
-    width: 237px;
-    height: 90px;
-    font-size: 18px;
-}
-#motivos h1{
-    width: 800px;
-    margin-bottom: 80px;
-    height: 45px;
-    font-size: 36px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.25;
-    letter-spacing: normal;
-    color: #4a4a4a;
-}
-
-#motivos .mot{
-    line-height: 1.67;
-    color: #7a7a7a;
-    height: 90px;
-}
-
-#motivos{
-    padding: 0 380px 100px 385px;
-    margin-bottom: 116px; 
-}
-*/
